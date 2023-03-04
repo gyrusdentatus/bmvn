@@ -1,0 +1,27 @@
+#!/bin/bash
+
+set -eu -o pipefail
+
+export DEBIAN_FRONTEND=noninteractive
+
+sudo -n true
+test $? -eq 0 || exit 1 "failure: you need sudo rights to run"
+
+echo -e "Installing base OS packages.."
+apt-get update && apt-get install -y -q --no-install-recommends \
+        apt-transport-https \
+        build-essential \
+        ca-certificates \
+        curl \
+        git \
+        libssl-dev \
+        wget \
+        gnupg
+
+echo -e "Installing nvm.."
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sudo bash 
+export NVM_DIR="$HOME/.nvm"
+
+echo -e "Reloading shell.."
+exec bash scripts/install_node.sh
+

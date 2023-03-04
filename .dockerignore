@@ -1,0 +1,10 @@
+artifacts
+cache
+contracts
+manifests
+node_modules
+scripts
+typechain-types
+*.sqlite
+evm
+k8s-miners

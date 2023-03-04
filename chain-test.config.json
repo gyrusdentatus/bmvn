@@ -1,0 +1,9 @@
+{
+    "hardhat": {
+        "id":               "1337",
+        "type":             "EVM",
+        "name":             "hardhat",
+        "rpc":              "http://127.0.0.1:8545/"
+    }
+}
+ 

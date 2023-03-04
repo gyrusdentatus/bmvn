@@ -1,0 +1,63 @@
+{
+    "fantom-testnet": {
+        "primary":          true,
+        "id":               "4002",
+        "type":             "EVM",
+        "name":             "fantom-testnet",
+        "rpc":              "https://rpc.testnet.fantom.nodes.opsnet.work/"
+    },    
+    "atlaschain-testnet": {
+        "id":               "2322",
+        "type":             "EVM",
+        "name":             "atlaschain-testnet",
+        "rpc":              "https://atlaschain-testnet.opsnet.work"
+    },
+    "frenchain-testnet": {
+        "id":               "444",
+        "type":             "EVM",
+        "name":             "frenchain-testnet",
+        "rpc":              "https://rpc-01tn.frenchain.app/"
+    },    
+    "cronos-testnet": {
+        "id":               "338",
+        "type":             "EVM",
+        "name":             "cronos-testnet",
+        "rpc":              "https://evm-t3.cronos.org/"
+    },     
+    "avalanche-testnet": {
+        "id":               "43113",
+        "type":             "EVM",
+        "name":             "avalanche-testnet",
+        "rpc":              "https://rpc.testnet.avalanche.nodes.opsnet.work/ext/bc/C/rpc"
+    },    
+    "binance-testnet": {
+        "id":               "97",
+        "type":             "EVM",
+        "name":             "binance-testnet",
+        "rpc":              "https://data-seed-prebsc-2-s1.binance.org:8545"
+    },       
+    "harmony-testnet": {
+        "id":               "1666700000",
+        "type":             "EVM",
+        "name":             "harmony-testnet",
+        "rpc":              "https://api.s0.b.hmny.io/"
+    },     
+    "metis-testnet": {
+        "id":               "599",
+        "type":             "EVM",
+        "name":             "metis-testnet",
+        "rpc":              "https://goerli.gateway.metisdevops.link/"
+    },    	    
+    "polygon-testnet": {
+        "id":               "80001",
+        "type":             "EVM",
+        "name":             "polygon-testnet",
+        "rpc":              "https://matic-mumbai.chainstacklabs.com"
+    },    	
+    "celo-testnet": {
+        "id":               "44787",
+        "type":             "EVM",
+        "name":             "celo-testnet",
+        "rpc":              "https://rpc.testnet.celo.nodes.opsnet.work/"
+    }
+}

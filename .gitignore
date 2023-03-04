@@ -1,0 +1,19 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+contracts
+.vscode
+chain.config.json
+chain-testnet.config.json
+run_test.sh
+transactors*
+
+#Hardhat files
+cache
+artifacts
+
+k8s-miners
+evm

@@ -1,0 +1,148 @@
+{
+    "arbitrum": {
+        "id":               "42161",
+        "type":             "EVM",
+        "name":             "arbitrum",
+        "rpc":              "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+    },   
+    "aurora": {
+        "id":               "1313161554",
+        "type":             "EVM",
+        "name":             "aurora",
+        "rpc":              "https://endpoints.omniatech.io/v1/aurora/mainnet/public"
+    },     
+    "avalanche": {
+        "id":               "43114",
+        "type":             "EVM",
+        "name":             "avalanche",
+        "rpc":              "https://api.avax.network/ext/bc/C/rpc"
+    },
+    "binance": {
+        "id":               "56",
+        "type":             "EVM",
+        "name":             "binance",
+        "rpc":              "https://nd-852-907-655.p2pify.com/f94e0b95e6d46de02e54c746fac7872c"
+    },
+    "bittorrent": {
+        "id":               "199",
+        "type":             "EVM",
+        "name":             "bittorrent",
+        "rpc":              "https://rpc.bittorrentchain.io"
+    },
+    "boba": {
+        "id":               "288",
+        "type":             "EVM",
+        "name":             "boba",
+        "rpc":              "https://lightning-replica.boba.network"
+    },      
+    "celo": {
+        "id":               "42220",
+        "type":             "EVM",
+        "name":             "celo",
+        "rpc":              "https://rpc.ankr.com/celo"
+    },
+    "cronos": {
+        "id":               "25",
+        "type":             "EVM",
+        "name":             "cronos",
+        "rpc":              "https://nd-186-487-231.p2pify.com/03c7708ff95064ddb981e43ceea24a61"
+    },
+    "dogechain": {
+        "id":               "2000",
+        "type":             "EVM",
+        "name":             "dogechain",
+        "rpc":              "https://dogechain.ankr.com"
+    },     
+    "ethereum": {
+        "id":               "1",
+        "type":             "EVM",
+        "name":             "ethereum",
+        "rpc":              "https://eth-rpc.gateway.pokt.network"
+    },    
+    "ethereum-classic": {
+        "id":               "61",
+        "type":             "EVM",
+        "name":             "ethereum-classic",
+        "rpc":              "https://geth-at.etc-network.info"
+    },    
+    "fantom": {
+        "primary":          true,
+        "id":               "250",
+        "type":             "EVM",
+        "name":             "fantom",
+        "rpc":              "https://rpc.ankr.com/fantom"
+    },
+    "gnosis": {
+        "id":               "100",
+        "type":             "EVM",
+        "name":             "gnosis",
+        "rpc":              "https://rpc.ankr.com/gnosis"
+    },       
+    "harmony": {
+        "id":               "1666600000",
+        "type":             "EVM",
+        "name":             "harmony",
+        "rpc":              "https://rpc.ankr.com/harmony"
+    },
+    "huobi": {
+        "id":               "128",
+        "type":             "EVM",
+        "name":             "huobi",
+        "rpc":              "https://http-mainnet.hecochain.com"
+    },      
+    "iotx": {
+        "id":               "4689",
+        "type":             "EVM",
+        "name":             "iotx",
+        "rpc":              "https://rpc.ankr.com/iotex"
+    },
+    "kcc": {
+        "id":               "321",
+        "type":             "EVM",
+        "name":             "kcc",
+        "rpc":              "https://rpc-mainnet.kcc.network"
+    },    
+    "okex": {
+        "id":               "66",
+        "type":             "EVM",
+        "name":             "okex",
+        "rpc":              "https://exchainrpc.okex.org"
+    },      
+    "metis": {
+        "id":               "1088",
+        "type":             "EVM",
+        "name":             "metis",
+        "rpc":              "https://andromeda.metis.io/?owner=1088"
+    },    
+    "oasis": {
+        "id":               "42262",
+        "type":             "EVM",
+        "name":             "oasis",
+        "rpc":              "https://emerald.oasis.dev"
+    }, 
+    "optimism": {
+        "id":               "10",
+        "type":             "EVM",
+        "name":             "optimism",
+        "rpc":              "https://mainnet.optimism.io"
+    },   
+    "polygon": {
+        "id":               "137",
+        "type":             "EVM",
+        "name":             "polygon",
+        "rpc":              "https://nd-545-857-070.p2pify.com/dc1d85f9083953ecd2b7f7ffd62397cf"
+    },
+    "smartbch": {
+        "id":               "10000",
+        "type":             "EVM",
+        "name":             "smartbch",
+        "rpc":              "https://smartbch.greyh.at"
+    },
+    "velas": {
+        "id":               "106",
+        "type":             "EVM",
+        "name":             "velas",
+        "rpc":              "https://explorer.velas.com/rpc"
+    }
+}
+ 

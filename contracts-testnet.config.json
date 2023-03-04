@@ -1,0 +1,57 @@
+{
+    "atlaschain-testnet": {
+        "weth":  "",          
+        "paper": "",
+        "chain": ""
+    },
+    "fantom-testnet": {
+        "weth":  "0xA9562D1Fab348265b2EdF4dBE12F2154Ce73Af24",      
+        "paper": "0x13e9e78f76Ac216d65db7DDfcF6533D55f7679eb",
+        "chain": "0xD25FF6548181831eDf298d4CA90D7A8eDF84Bdc9"
+    },    
+    "frenchain-testnet": {
+        "weth":  "",  
+        "paper": "",
+        "chain": ""
+    },    
+    "cronos-testnet": {
+        "weth":  "",
+        "paper": "",
+        "chain": ""
+    },     
+    "avalanche": {
+        "weth":  "",    
+        "paper": "",
+        "chain": ""
+    },
+    "avalanche-testnet": {
+        "weth":  "",
+        "paper": "",
+        "chain": ""
+    },    
+    "binance-testnet": {
+        "weth":  "",      
+        "paper": "",
+        "chain": ""
+    },       
+    "harmony-testnet": {
+        "weth":  "",
+        "paper": "",
+        "chain": ""
+    },     
+    "metis-testnet": {
+        "weth":  "0x307A75836368C640976aF2b20e9dE8d9033fE580",
+        "paper": "0xec22d8b5bd1dF302EEcDbb83b2085Ba9859D105E",
+        "chain": "0x49Ccc5C6fC77B50f4cFC958295514a5A87C2c6b8"
+    },    	    
+    "polygon-testnet": {
+        "weth":  "",
+        "paper": "",
+        "chain": ""
+    },    	
+    "celo-testnet": {
+        "weth":  "",
+        "paper": "",
+        "chain": ""
+    }
+}

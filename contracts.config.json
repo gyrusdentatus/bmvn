@@ -1,0 +1,47 @@
+{
+    "fantom": {
+        "weth":  "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "paper": "0xea97c7c1c89d4084e0BFB88284FA90243779da9f",
+        "chain": "0xd0bFFd80d587322f0730f27C2D2476b502f44697"
+    },
+    "cronos": {
+        "weth":  "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "paper": "0x1affBc17938a25d245e1B7eC6f2fc949df8E9760",
+        "chain": "0x6fBE81A6A9B18d837c8C94fad09816C629239E96"
+    },
+    "avalanche": {
+        "weth":  "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",    
+        "paper": "0x92D0FA6a9f0Ff5Ffe82e4Fe3b7700914D6Ff1112",
+        "chain": "0x76cdCD21c82DF5F958FafAe187BF1Ff4ed29b084"
+    },
+    "binance": {
+        "weth":  "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "paper": "0xE239b561369aeF79eD55DFdDed84848A3bF60480",
+        "chain": "0x905c0Cf6cE3e6654BA7dF917c14047ce7d167756"
+    },
+    "harmony": {
+        "weth":  "0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a",
+        "paper": "0x1affBc17938a25d245e1B7eC6f2fc949df8E9760",
+        "chain": "0x1144d4Cd027d7E6bb95dF45b326888693c881a0E"
+    },
+    "polygon": {
+        "weth":  "",  
+        "paper": "0x11a1779ae6b02bb8E7ff847919bcA3e55BcbB3D5",
+        "chain": "0xf00678d0D9BEc6F6236BD4f4Adea6d303765affA"
+    },
+    "celo": {
+        "weth":  "",
+        "paper": "0x1affBc17938a25d245e1B7eC6f2fc949df8E9760",
+        "chain": "0xcE27c7681D63ACFd8B1614B21276e090dc65fA27"
+    },
+    "oasis": {
+        "weth":  "",
+        "paper": "0x1affBc17938a25d245e1B7eC6f2fc949df8E9760",
+        "chain": "0x0234db720757846970021B2D6266c3F48AD3FB75"
+    },
+    "metis": {
+        "weth":  "0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481",
+        "paper": "0x1affBc17938a25d245e1B7eC6f2fc949df8E9760",
+        "chain": "0x532c52AC161F25f8f3D644C46bB40F56eCe03d2e"
+    }
+}
