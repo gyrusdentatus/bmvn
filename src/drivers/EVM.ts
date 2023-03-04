@@ -156,8 +156,6 @@ export default class DriverEVM {
         // look for and validate the p2p data from on-chain data
         // @note ** this is the security! any changes here must be audited!
         const txnReceipt = await this.PROVIDER.getTransactionReceipt(message.data.transactionHash);
-
-        console.log(txnReceipt);
         for(let x=0; x < txnReceipt.logs.length; x++) {
             try {
                 const chainData = this.CHAIN.interface.parseLog(txnReceipt.logs[x]);

@@ -21,7 +21,7 @@ Hit <enter> to any upgrade questions, defaults are fine.
 Miner key used in .env must ONLY be used for the miner, nowhere else!
 
 ```
-  git clone https://gitlab.com/cryptolink/miner.git
+  git clone https://github.com/CryptoLinkTech/bmvn.git
   cd miner
   bash scripts/install
   nano .env
