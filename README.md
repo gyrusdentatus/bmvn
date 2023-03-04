@@ -22,7 +22,7 @@ Miner key used in .env must ONLY be used for the miner, nowhere else!
 
 ```
   git clone https://github.com/CryptoLinkTech/bmvn.git
-  cd miner
+  cd bmvn
   bash scripts/install
   nano .env
   nano chain.config.json
@@ -36,6 +36,6 @@ Miner key used in .env must ONLY be used for the miner, nowhere else!
 Just close the shell window to exit, the miner will still be running on the server.
 
 ```
-  cd miner
+  cd bmvn
   bash scripts/startup
 ```
