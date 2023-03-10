@@ -16,7 +16,8 @@ apt-get update && apt-get install -y -q --no-install-recommends \
         git \
         libssl-dev \
         wget \
-        gnupg
+        gnupg \
+        screen
 
 echo -e "Installing nvm.."
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sudo bash 
