@@ -25,7 +25,7 @@ const os = require('os');
 
 dotenv.config();
 
-const VERSION = "0.3.2";
+const VERSION = "0.3.3";
 
 let CONFIG:any;
 let CONTRACTS:any;
@@ -86,14 +86,14 @@ class Miner {
             this.loadChainDrivers();
         });
 
-        /*setInterval(() => {
+        setInterval(() => {
             this.sendHeartbeat();
-        }, 5 * 60 * 1000);*/
+        }, 5 * 60 * 1000);
     }
 
     async connectP2P() {
         const bootstrapers = [
-            '/ip4/168.119.79.44/tcp/2323/p2p/QmYMxFJAWQfwM3nWCChySdJSn4X9T4tkkTuUgYKaQXytg8',
+            '/ip4/23.88.16.136/tcp/2323/p2p/QmYMxFJAWQfwM3nWCChySdJSn4X9T4tkkTuUgYKaQXytg8',
         ]
 
         const node = await createLibp2p({
@@ -134,7 +134,7 @@ class Miner {
             console.log('listening on addresses:', addr.toString())
         })
 
-        //node.pubsub.subscribe('HEARTBEAT');
+        node.pubsub.subscribe('HEARTBEAT');
 
         node.pubsub.subscribe('MESSAGE:REQUEST');
         node.pubsub.subscribe('MESSAGE:SIGNED');
