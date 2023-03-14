@@ -25,7 +25,7 @@ const os = require('os');
 
 dotenv.config();
 
-const VERSION = "0.3.0";
+const VERSION = "0.3.1";
 
 let CONFIG:any;
 let CONTRACTS:any;
@@ -88,7 +88,7 @@ class Miner {
 
         setInterval(() => {
             this.sendHeartbeat();
-        }, 0.5 * 60 * 1000);
+        }, 5 * 60 * 1000);
     }
 
     async connectP2P() {
