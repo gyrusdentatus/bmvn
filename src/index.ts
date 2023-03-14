@@ -86,9 +86,9 @@ class Miner {
             this.loadChainDrivers();
         });
 
-        setInterval(() => {
+        /*setInterval(() => {
             this.sendHeartbeat();
-        }, 5 * 60 * 1000);
+        }, 5 * 60 * 1000);*/
     }
 
     async connectP2P() {
@@ -134,7 +134,7 @@ class Miner {
             console.log('listening on addresses:', addr.toString())
         })
 
-        node.pubsub.subscribe('HEARTBEAT');
+        //node.pubsub.subscribe('HEARTBEAT');
 
         node.pubsub.subscribe('MESSAGE:REQUEST');
         node.pubsub.subscribe('MESSAGE:SIGNED');
