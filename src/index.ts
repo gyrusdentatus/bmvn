@@ -25,7 +25,7 @@ const os = require('os');
 
 dotenv.config();
 
-const VERSION = "0.3.1";
+const VERSION = "0.3.2";
 
 let CONFIG:any;
 let CONTRACTS:any;
