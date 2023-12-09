@@ -45,10 +45,30 @@ copy_files() {
     done
 }
 
+start_process() {
+    # Start the command in the background
+    npx ts-node --esm src/index.ts &
+    local pid=$!
+
+    # Function to gracefully kill the process
+    local cleanup() {
+        echo "Gracefully terminating the process..."
+        kill "$pid"
+        wait "$pid"  # Optional: wait for the process to finish
+    }
+
+    # Trap SIGINT (Ctrl+C) and SIGTERM (termination signal) to call cleanup
+    trap cleanup SIGINT SIGTERM
+
+    # Wait for the process to finish
+    wait "$pid"
+}
+
 # Main script execution
 check_sudo
 install_dependencies
 install_node
 copy_files
-
+# Run the web or whatever it is 
+start_process
 echo "Setup completed successfully."
