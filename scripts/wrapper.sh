@@ -56,7 +56,7 @@ start_process() {
     local pid=$!
 
     # Function to gracefully kill the process
-    local cleanup() {
+    cleanup() {
         echo "Gracefully terminating the process..."
         kill "$pid"
         wait "$pid"  # Optional: wait for the process to finish
