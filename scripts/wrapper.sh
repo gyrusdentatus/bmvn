@@ -29,21 +29,26 @@ install_node () {
 }
 # Function to copy files with user confirmation for overwriting
 copy_files() {
+    local src_dir="../"
     local src_files=("chain-testnet.config.json.example" "chain.config.json.example" ".env.example")
     local dest_files=("chain-testnet.config.json" "chain.config.json" ".env")
     
     for i in "${!src_files[@]}"; do
-        if [[ -f "${dest_files[i]}" ]]; then
-            printf "File %s exists. Overwrite? (y/N): " "${dest_files[i]}"
+        local src_path="${src_dir}${src_files[i]}"
+        local dest_path="${dest_files[i]}"
+
+        if [[ -f "$dest_path" ]]; then
+            printf "File %s exists. Overwrite? (y/N): " "$dest_path"
             read -r answer
             if [[ $answer =~ ^[Yy]$ ]]; then
-                cp "${src_files[i]}" "${dest_files[i]}"
+                cp "$src_path" "$dest_path"
             fi
         else
-            cp "${src_files[i]}" "${dest_files[i]}"
+            cp "$src_path" "$dest_path"
         fi
     done
 }
+
 
 start_process() {
     # Start the command in the background
